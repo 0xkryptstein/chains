@@ -5351,6 +5351,14 @@
     "format": "png"
   }]
 }, {
+  "name": "vana",
+  "icons": [{
+    "url": "ipfs://QAZt75XixnEtFzqHTrJa8kJkV4ccXWaXqeMeqM8BcBomQc",
+    "width": 810,
+    "height": 810,
+    "format": "svg"
+  }]
+}, {
   "name": "arvix",
   "icons": [{
     "url": "ipfs://QmcwGGWyemrFUZPriS3PqxLUoT7vdtS7FqNY5fAaoTG27Q",
@@ -6700,6 +6708,14 @@
     "url": "ipfs://Qmesm61n8vVVDEeZU7npz39aQYofes9vMfXYwWM4JehLFS",
     "width": 250,
     "height": 250,
+    "format": "svg"
+  }]
+}, {
+  "name": "appchain",
+  "icons": [{
+    "url": "ipfs://bafybeigx76uxvcvet7365sjdzuxxcgl5auzck6vbbigu2jeg6ixl5k3tya",
+    "width": 1320,
+    "height": 1320,
     "format": "svg"
   }]
 }, {

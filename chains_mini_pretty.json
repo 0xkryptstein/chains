@@ -4068,6 +4068,19 @@
   "faucets": [],
   "infoURL": "https://areon.network"
 }, {
+  "name": "AppChain",
+  "chainId": 466,
+  "shortName": "appchain",
+  "networkId": 466,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.appchain.xyz/http", "wss://rpc.appchain.xyz/ws"],
+  "faucets": [],
+  "infoURL": "https://appchain.xyz"
+}, {
   "name": "World Chain",
   "chainId": 480,
   "shortName": "wc",
@@ -7409,18 +7422,18 @@
   "faucets": [],
   "infoURL": "https://zkbase.org/"
 }, {
-  "name": "Islander",
+  "name": "Vana",
   "chainId": 1480,
-  "shortName": "isl",
+  "shortName": "vana",
   "networkId": 1480,
   "nativeCurrency": {
-    "name": "Islander",
-    "symbol": "ISL",
+    "name": "Vana",
+    "symbol": "VANA",
     "decimals": 18
   },
-  "rpc": [],
-  "faucets": [],
-  "infoURL": ""
+  "rpc": ["https://rpc.vana.org/"],
+  "faucets": ["https://faucet.vana.org/"],
+  "infoURL": "https://vana.org"
 }, {
   "name": "Vitruveo Mainnet",
   "chainId": 1490,
@@ -11438,6 +11451,19 @@
   "rpc": ["https://chain-rpc.gold.dev"],
   "faucets": [],
   "infoURL": "https://gold.dev"
+}, {
+  "name": "AppChain Testnet",
+  "chainId": 4661,
+  "shortName": "appchaintestnet",
+  "networkId": 4661,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://appchaintestnet.rpc.caldera.xyz/http", "wss://appchaintestnet.rpc.caldera.xyz/ws"],
+  "faucets": [],
+  "infoURL": "https://appchain.xyz"
 }, {
   "name": "IoTeX Network Mainnet",
   "chainId": 4689,
@@ -18520,7 +18546,7 @@
     "symbol": "SOPH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.sophon.xyz"],
+  "rpc": ["https://rpc.sophon.xyz", "wss://rpc.sophon.xyz/ws"],
   "faucets": [],
   "infoURL": ""
 }, {
@@ -24448,7 +24474,7 @@
     "symbol": "COTI",
     "decimals": 18
   },
-  "rpc": ["https://testnet.coti.io/rpc"],
+  "rpc": ["https://testnet.coti.io/rpc", "https://testnet-magnus-validator.coti.io/rpc", "https://testnet-minor-validator.coti.io/rpc"],
   "faucets": ["https://faucet.coti.io"],
   "infoURL": "https://coti.io/"
 }, {
